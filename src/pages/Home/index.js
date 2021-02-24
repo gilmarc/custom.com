@@ -11,7 +11,7 @@ const Home = ()=>{
                     <h1>Estilize sua Custon</h1>
                     <p>Fazemos peças e acessórios sobre encomenda, para todos os estilos de custom! Veja nosso portifólio para sua aventura.</p>
                     <Link to="/produtos">
-                        <button><a>Produtos</a></button>
+                        <button><a href="javascript:void(0);">Produtos</a></button>
                     </Link>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const Home = ()=>{
                     <h1>Viva sua aventura</h1>
                     <p>Fazemos peças e acessórios sobre encomenda, para todos os estilos de custom! Veja nosso portifólio para sua aventura.</p>
                     <Link to="/produtos">
-                        <button><a>Produtos</a></button>
+                        <button><a href="javascript:void(0);">Produtos</a></button>
                     </Link>
                 </div>
             </div>
