@@ -27,6 +27,7 @@
     height: 35px;
     border-radius: 10px;
     border: none;
+    color: #fff;
 }
 
 .container-produto button:hover{

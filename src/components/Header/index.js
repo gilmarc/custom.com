@@ -8,13 +8,13 @@ const Header = ()=>{
             <Link to="/">
                 <div>
                     <img src={logo} alt="Live to Ride"/>
-                    <a href="javascript:void(0);">Custom.com</a>
+                    <p>Custom.com</p>
                 </div>
             </Link>
             <ul>
-                <li><Link to="/"><a href="javascript:void(0);">Home</a></Link></li>
-                <li><Link to="/produtos"><a href="javascript:void(0);">Produtos</a></Link></li>
-                <li><Link to="/contato"><a href="javascript:void(0);">Contato</a></Link></li>
+                <li><Link to="/"><p>Home</p></Link></li>
+                <li><Link to="/produtos"><p>Produtos</p></Link></li>
+                <li><Link to="/contato"><p>Contato</p></Link></li>
             </ul>
         </main>
     );

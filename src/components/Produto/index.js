@@ -9,7 +9,7 @@ const Produto = ({name = 'Produto', img})=>{
             <img src={img} alt="Live to Ride"/>
             <p>{name}</p>
             <Link to="/contato">
-                <button><a href="javascript:void(0);">Contato</a></button>
+                <button>Contato</button>
             </Link>
         </div>
     );
