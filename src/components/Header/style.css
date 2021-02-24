@@ -1,0 +1,39 @@
+.container-main{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 7%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-main div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-main a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-main img {
+    width: 50px;
+}
+
+.container-main ul {
+    list-style: none;
+    display: flex;
+}
+
+.container-main ul li{
+    padding: 0 20px;
+}
+
+.container-main ul li a{
+    color: #fff;
+    text-decoration: none;
+}

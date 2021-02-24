@@ -1,0 +1,41 @@
+.container-produto{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 2%;
+}
+
+.container-produto img{
+     width: 200px;
+     height: 200px;
+
+ }
+
+.container-produto p{
+   margin: 20px 0;
+}
+
+.container-produto button{
+    background-color: #4f2625;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+}
+
+.container-produto button:hover{
+    box-shadow: antiquewhite;
+    background-color: #4f4e3d;
+}
+
+.container-produto a{
+    text-decoration: none;
+    color: #fff;
+}
+
