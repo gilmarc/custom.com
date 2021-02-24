@@ -7,7 +7,7 @@ const Contato = ()=>{
 
     const enviarEmail = () =>{
 
-        if(nome.leading == 0 || telefone.length == 0 || email.length == 0){
+        if(nome.leading === 0 || telefone.length === 0 || email.length === 0){
             notify("Preencha todos os campos!","warning");
         }else{
             setNome("");
