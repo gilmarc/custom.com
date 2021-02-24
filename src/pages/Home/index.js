@@ -11,19 +11,19 @@ const Home = ()=>{
                     <h1>Estilize sua Custon</h1>
                     <p>Fazemos peças e acessórios sobre encomenda, para todos os estilos de custom! Veja nosso portifólio para sua aventura.</p>
                     <Link to="/produtos">
-                        <button><a href="javascript:void(0);">Produtos</a></button>
+                        <button>Produtos</button>
                     </Link>
                 </div>
             </div>
             <div className="container-home">
-                <iframe width="50%" height="400" src="https://www.youtube.com/embed/s5zBDaovyM0" frameBorder="0"
+                <iframe title="video institucional" width="50%" height="400" src="https://www.youtube.com/embed/s5zBDaovyM0" frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen></iframe>
+                        allowFullScreen/>
                 <div className="div-video">
                     <h1>Viva sua aventura</h1>
                     <p>Fazemos peças e acessórios sobre encomenda, para todos os estilos de custom! Veja nosso portifólio para sua aventura.</p>
                     <Link to="/produtos">
-                        <button><a href="javascript:void(0);">Produtos</a></button>
+                        <button>Produtos</button>
                     </Link>
                 </div>
             </div>
